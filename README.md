@@ -82,4 +82,5 @@ npm run lint
 - install latest LTS node version - `nvm install --lts`
 - use a node version - `nvm use v12.14.1`
 - creating new vue-js-3 app using [quickstart](https://vuejs.org/guide/quick-start.html){:target="_blank"}
-  - `npm init vue@latest`
+  - `npm init vue@latest` OR
+  - `npm init vite@latest`, and then select `vue`.
