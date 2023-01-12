@@ -27,7 +27,6 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
-To deploy using gh pages, base attribute is required for vite.config.ts
 
 ### Compile and Hot-Reload for Development
 
@@ -68,6 +67,10 @@ npm run test:e2e
 ```sh
 npm run lint
 ```
+
+# Deployment using gh-pages
+To deploy using gh pages, base attribute is required for `vite.config.ts`.
+add `gh-pages` dependency and `deploy` script in `package.json`.
 
 # Initialize this repo
 Install nvm [node version manager](https://github.com/nvm-sh/nvm){:target="_blank"}
