@@ -27,6 +27,7 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 ```sh
 npm install
 ```
+To deploy using gh pages, base attribute is required for vite.config.ts
 
 ### Compile and Hot-Reload for Development
 

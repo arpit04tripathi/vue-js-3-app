@@ -5,6 +5,8 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  // To deploy using gh pages, base attribute is required for vite config
+  base: "/vue-js-3-app/",
   plugins: [vue()],
   resolve: {
     alias: {
