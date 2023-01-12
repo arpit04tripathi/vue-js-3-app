@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index-77319551.js";const _={},a={class:"about"},c=s("h1",null,"This is an about page for newly create vuejs 3 app with vite.",-1),n=[c];function i(r,u){return t(),o("div",a,n)}const d=e(_,[["render",i]]);export{d as default};
