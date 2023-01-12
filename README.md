@@ -69,8 +69,10 @@ npm run lint
 ```
 
 # Deployment using gh-pages
-- To deploy using gh pages, base attribute is required for `vite.config.ts`.
-- add `gh-pages` dependency and `deploy` script in `package.json`.
+- `vite.config.ts` - add attribute base for path to repository.
+- `package.json` - add `gh-pages` dependency and `deploy` script.
+- Run `npm run deploy` from terminal, this creates a dist folder and commits it to branch gh-pages on github.
+- gh pages deploy from branch `gh-pages`.
 
 # Initialize this repo
 - Install nvm [node version manager](https://github.com/nvm-sh/nvm){:target="_blank"}
