@@ -69,15 +69,15 @@ npm run lint
 ```
 
 # Deployment using gh-pages
-To deploy using gh pages, base attribute is required for `vite.config.ts`.
-add `gh-pages` dependency and `deploy` script in `package.json`.
+- To deploy using gh pages, base attribute is required for `vite.config.ts`.
+- add `gh-pages` dependency and `deploy` script in `package.json`.
 
 # Initialize this repo
-Install nvm [node version manager](https://github.com/nvm-sh/nvm){:target="_blank"}
-check nvm version - `nvm --version`
-check node versino - `nvm version`
-check latest LTS node version - `nvm version-remote --lts`
-install latest LTS node version - `nvm install --lts`
-use a node version - `nvm use v12.14.1`
-creating new vue-js-3 app using [quickstart](https://vuejs.org/guide/quick-start.html){:target="_blank"}
-- `npm init vue@latest`
+- Install nvm [node version manager](https://github.com/nvm-sh/nvm){:target="_blank"}
+- check nvm version - `nvm --version`
+- check node versino - `nvm version`
+- check latest LTS node version - `nvm version-remote --lts`
+- install latest LTS node version - `nvm install --lts`
+- use a node version - `nvm use v12.14.1`
+- creating new vue-js-3 app using [quickstart](https://vuejs.org/guide/quick-start.html){:target="_blank"}
+  - `npm init vue@latest`
